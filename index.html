@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>OneCard IO</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Poppins', sans-serif;
+		}
+		.wrapper{
+			width: 100%;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: #f9f9f9;
+		}
+		.coming-soon{
+			width: 100%;
+			max-width: 600px;
+			background: #fff;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+		}
+		.coming-soon .content{
+			padding: 50px 20px;
+		}
+		.coming-soon .content h1{
+			font-size: 40px;
+			color: #333;
+			margin-bottom: 10px;
+		}
+		.coming-soon .content p{
+			font-size: 16px;
+			color: #666;
+			margin-bottom: 30px;
+		}
+		.coming-soon .countdown{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 30px;
+		}
+		.coming-soon .countdown .countdown-item{
+			width: 80px;
+			height: 80px;
+			background: #333;
+			color: #fff;
+			font-size: 30px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 5px;
+			margin: 0 10px;
+		}
+		.coming-soon .social-icon{
+			margin-top: 20px;
+		}
+		.coming-soon .social-icon ul{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.coming-soon .social-icon ul li{
+			list-style: none;
+			margin: 0 10px;
+		}
+		.coming-soon .social-icon ul li a{
+			display: block;
+			width: 40px;
+			height: 40px;
+			background: #333;
+			color: #fff;
+			font-size: 20px;
+			line-height: 40px;
+			text-align: center;
+			border-radius: 50%;
+			transition: 0.3s;
+		}
+		.coming-soon .social-icon ul li a:hover{
+			background: #ff4d4d;
+		}
+		.footer{
+			background: #333;
+			color: #fff;
+			padding: 10px 20px;
+		}
+		.footer p{
+			font-size: 14px;
+		}
+	</style>
+</head>
+<body>
+	
+
+	<div class="wrapper">
+
+		<!-- coming soon landing page -->
+		<div class="coming-soon">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="content text-center">
+							<h1>OneCard IO</h1>
+							<p>Coming Soon</p>
+							<div class="countdown" data-date="2022/12/31"></div>
+							<div class="social-icon">
+								<ul>
+									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+									<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer text-center">
+				<p>© 2022 OneCard IO. All Rights Reserved.</p>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+</body>
+</html>
